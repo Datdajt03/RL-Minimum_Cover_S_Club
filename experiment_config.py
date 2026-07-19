@@ -14,5 +14,5 @@ class ExperimentConfig:
         self.entropy_coef     = 0.01     # β entropy
         self.grad_clip        = 1.0      # gradient clipping
         self.penalty_lambda   = 10.0     # hệ số hình phạt vi phạm đường kính
-        self.max_generations  = 1000     # số thế hệ tối đa trong 1 episode (T)
+        self.max_generations  = 500      # số thế hệ tối đa trong 1 episode (T)
         self.stagnation_limit = 200      # số thế hệ không cải thiện tối đa để dừng sớm (L)
