@@ -1,5 +1,4 @@
-# EVO-RL: Học tăng cường thích nghi chọn toán tử cho bài toán Bao $s$-Club tối tiểu
-(Reinforcement Learning-based Adaptive Operator Selection for the Minimum $s$-Club Cover Problem)
+# Phương pháp lựa chọn thích nghi các toán tử tiến hóa dựa trên Reinforcement Learning cho bài toán Minimum s-club cover
 
 Thư mục này chứa mã nguồn thực nghiệm và các tập dữ liệu cho bài nghiên cứu đề xuất giải pháp học tăng cường (Reinforcement Learning) nhằm lựa chọn toán tử di truyền thích nghi cho giải thuật tiến hóa (Evolutionary Algorithm - EA) giải quyết bài toán **Minimum $s$-Club Cover (Bao $s$-Club tối tiểu)**.
 
