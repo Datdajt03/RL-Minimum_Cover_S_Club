@@ -55,9 +55,9 @@ Tác tử RL lựa chọn giữa 3 toán tử di truyền chính:
 ## 3. Siêu tham số thực nghiệm chính
 Các siêu tham số được định nghĩa trong `experiment_config.py` và tối ưu hóa theo bài báo:
 * **`pop_size = 50`**: Quy mô quần thể giải thuật di truyền.
-* **`max_epochs = 500`**: Số episode huấn luyện tác tử RL.
-* **`max_generations = 500` ($T$)**: Số thế hệ tối đa chạy trong 1 lần tiến hóa (1 episode).
-* **`stagnation_limit = 200` ($L$)**: Điều kiện dừng sớm khi quần thể không cải thiện nghiệm tốt nhất sau $L$ thế hệ liên tiếp.
+* **`max_epochs = 200`**: Số episode huấn luyện tác tử RL.
+* **`max_generations = 200` ($T$)**: Số thế hệ tối đa chạy trong 1 lần tiến hóa (1 episode).
+* **`stagnation_limit = 100` ($L$)**: Điều kiện dừng sớm khi quần thể không cải thiện nghiệm tốt nhất sau $L$ thế hệ liên tiếp.
 * **`penalty_lambda = 10.0` ($\lambda$):** Hệ số hình phạt khi vi phạm ràng buộc đường kính $s$-club.
 
 ---

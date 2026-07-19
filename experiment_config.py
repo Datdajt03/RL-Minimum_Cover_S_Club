@@ -3,7 +3,7 @@ class ExperimentConfig:
         # Theo paper bảng 1
         self.learning_rate    = 0.0003   # Adam lr
         self.batch_size       = 64       # PPO batch size
-        self.max_epochs       = 500     # số thế hệ (generations)
+        self.max_epochs       = 200     # số thế hệ (generations)
         self.hidden_dim       = 256      # chiều rộng ẩn MLP
         self.s_club_threshold = 2        # ngưỡng đường kính s-club
         self.pop_size         = 50       # kích thước quần thể
@@ -14,5 +14,5 @@ class ExperimentConfig:
         self.entropy_coef     = 0.01     # β entropy
         self.grad_clip        = 1.0      # gradient clipping
         self.penalty_lambda   = 10.0     # hệ số hình phạt vi phạm đường kính
-        self.max_generations  = 500      # số thế hệ tối đa trong 1 episode (T)
-        self.stagnation_limit = 200      # số thế hệ không cải thiện tối đa để dừng sớm (L)
+        self.max_generations  = 200      # số thế hệ tối đa trong 1 episode (T)
+        self.stagnation_limit = 100      # số thế hệ không cải thiện tối đa để dừng sớm (L)
