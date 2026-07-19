@@ -5,6 +5,7 @@ import torch
 import numpy as np
 from time import time
 from experiment_config import ExperimentConfig
+from agent import AdaptiveOperatorAgent
 
 
 def train_agent(agent, env, optimizer, device):
@@ -23,7 +24,10 @@ def train_agent(agent, env, optimizer, device):
     }
     start = time()
 
-    for epoch in range(config.max_epochs):
+    is_ppo = isinstance(agent, AdaptiveOperatorAgent)
+    epochs_to_run = config.max_epochs if is_ppo else 1
+
+    for epoch in range(epochs_to_run):
         state = env.reset()
         done  = False
         ep_reward = 0.0
@@ -56,6 +60,11 @@ def train_agent(agent, env, optimizer, device):
 
         mean_ep_probs = np.mean(ep_action_probs, axis=0).tolist() if ep_action_probs else [0.0]*3
         metrics['action_probs'].append(mean_ep_probs)
+
+    # Nhân bản metrics cho các baseline không cần huấn luyện để tương thích kích thước
+    if not is_ppo:
+        for key in ['solution_quality', 'computation_time', 'convergence_rate', 'cover_sizes', 'action_probs']:
+            metrics[key] = metrics[key] * config.max_epochs
 
     return metrics
 
