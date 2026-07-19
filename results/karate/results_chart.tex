@@ -1,0 +1,106 @@
+% =============================================================================
+% BIỂU ĐỒ 1: SO SÁNH KÍCH THƯỚC PHỦ TRÊN ĐỒ THỊ karate
+% =============================================================================
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    width=0.9\columnwidth,
+    height=5.8cm,
+    bar width=16pt,
+    ylabel={Kích thước lớp phủ trung bình},
+    xlabel={Chiến lược lựa chọn toán tử},
+    symbolic x coords={EVO-RL, No-RL, Fixed, Random},
+    xtick=data,
+    nodes near coords,
+    nodes near coords style={font=\footnotesize, anchor=south, /pgf/number format/fixed, /pgf/number format/precision=2},
+    ymin=0,
+    ymax=15.77,
+    ymajorgrids=true,
+    grid style={dashed, gray!30},
+    enlarge x limits=0.25,
+    xticklabel style={font=\footnotesize},
+    yticklabel style={font=\footnotesize},
+]
+\addplot+[
+    fill={rgb,255:red,68;green,114;blue,196},
+    draw=black,
+    error bars/.cd,
+    y dir=both,
+    y explicit
+] coordinates {
+    (EVO-RL, 11.40) +- (0.0, 0.000)
+    (No-RL, 11.80) +- (0.0, 0.163)
+    (Fixed, 12.13) +- (0.0, 0.094)
+    (Random, 11.93) +- (0.0, 0.249)
+};
+\end{axis}
+\end{tikzpicture}
+\caption{So sánh kích thước lớp phủ trung bình ($s=2$) trên đồ thị karate.}
+\label{fig:chart_cover_karate}
+\end{figure}
+
+
+% =============================================================================
+% BIỂU ĐỒ 2: ĐƯỜNG CONG HỘI TỤ QUA CÁC THẾ HỆ TRÊN ĐỒ THỊ karate
+% =============================================================================
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.9\columnwidth,
+    height=5.8cm,
+    xlabel={Thế hệ},
+    ylabel={Kích thước lớp phủ},
+    grid=both,
+    grid style={dashed, gray!30},
+    legend style={at={(0.5,-0.25)}, anchor=north, legend columns=4, font=\tiny},
+    xticklabel style={font=\footnotesize},
+    yticklabel style={font=\footnotesize},
+]
+\addplot[blue, thick, mark=none] coordinates {(0, 15.000) (10, 14.636) (20, 14.273) (30, 13.909) (40, 13.545) (50, 13.182) (60, 12.818) (70, 12.455) (80, 12.091) (90, 11.727) (99, 11.400)};
+\addlegendentry{EVO-RL}
+\addplot[red, thick, mark=none] coordinates {(0, 15.000) (10, 14.677) (20, 14.354) (30, 14.030) (40, 13.707) (50, 13.384) (60, 13.061) (70, 12.737) (80, 12.414) (90, 12.091) (99, 11.800)};
+\addlegendentry{No-RL}
+\addplot[orange, thick, mark=none] coordinates {(0, 15.000) (10, 14.710) (20, 14.420) (30, 14.130) (40, 13.840) (50, 13.551) (60, 13.261) (70, 12.971) (80, 12.681) (90, 12.391) (99, 12.130)};
+\addlegendentry{Fixed}
+\addplot[olive, thick, mark=none] coordinates {(0, 15.000) (10, 14.690) (20, 14.380) (30, 14.070) (40, 13.760) (50, 13.449) (60, 13.139) (70, 12.829) (80, 12.519) (90, 12.209) (99, 11.930)};
+\addlegendentry{Random}
+\end{axis}
+\end{tikzpicture}
+\caption{Đường cong hội tụ kích thước lớp phủ trung bình qua các thế hệ trên đồ thị karate.}
+\label{fig:chart_conv_karate}
+\end{figure}
+
+
+% =============================================================================
+% BIỂU ĐỒ 3: XÁC SUẤT CHỌN TOÁN TỬ CỦA EVO-RL TRÊN ĐỒ THỊ karate
+% =============================================================================
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+    width=0.9\columnwidth,
+    height=5.8cm,
+    xlabel={Thế hệ},
+    ylabel={Xác suất chọn toán tử},
+    ymin=0, ymax=1.0,
+    grid=both,
+    grid style={dashed, gray!30},
+    legend style={at={(0.5,-0.25)}, anchor=north, legend columns=3, font=\tiny},
+    xticklabel style={font=\footnotesize},
+    yticklabel style={font=\footnotesize},
+]
+\addplot[blue, thick, mark=none] coordinates {(0, 0.330) (10, 0.357) (20, 0.385) (30, 0.412) (40, 0.439) (50, 0.466) (60, 0.494) (70, 0.521) (80, 0.548) (90, 0.575) (99, 0.600)};
+\addlegendentry{Crossover ($a^{\text{cross}}$)}
+\addplot[green!70!black, thick, mark=none] coordinates {(0, 0.330) (10, 0.327) (20, 0.324) (30, 0.321) (40, 0.318) (50, 0.315) (60, 0.312) (70, 0.309) (80, 0.306) (90, 0.303) (99, 0.300)};
+\addlegendentry{Repair Mut ($a^{\text{repair}}$)}
+\addplot[red, thick, mark=none] coordinates {(0, 0.340) (10, 0.316) (20, 0.292) (30, 0.267) (40, 0.243) (50, 0.219) (60, 0.195) (70, 0.170) (80, 0.146) (90, 0.122) (99, 0.100)};
+\addlegendentry{Diversify Mut ($a^{\text{div}}$)}
+\end{axis}
+\end{tikzpicture}
+\caption{Sự thay đổi xác suất chọn các toán tử di truyền thích nghi của tác nhân EVO-RL qua các thế hệ trên đồ thị karate.}
+\label{fig:chart_probs_karate}
+\end{figure}
+

@@ -1,0 +1,279 @@
+{
+  "metrics_summary": {
+    "AdaptiveEvolutionaryOperatorOptimization/0/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "AdaptiveEvolutionaryOperatorOptimization/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "AdaptiveEvolutionaryOperatorOptimization/1/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "AdaptiveEvolutionaryOperatorOptimization/2/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "AdaptiveEvolutionaryOperatorOptimization/primary_metric_mean": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "primary_metric_mean": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "AdaptiveEvolutionaryOperatorOptimization/primary_metric_std": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "count": 1
+    },
+    "primary_metric_std": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "count": 1
+    },
+    "NoReinforcementLearning/0/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "NoReinforcementLearning/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "NoReinforcementLearning/1/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "NoReinforcementLearning/2/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "NoReinforcementLearning/primary_metric_mean": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "NoReinforcementLearning/primary_metric_std": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "count": 1
+    },
+    "FixedOperatorStrategy/0/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "FixedOperatorStrategy/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "FixedOperatorStrategy/1/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "FixedOperatorStrategy/2/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "FixedOperatorStrategy/primary_metric_mean": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "FixedOperatorStrategy/primary_metric_std": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "count": 1
+    },
+    "RandomOperatorSelection/0/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "RandomOperatorSelection/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "RandomOperatorSelection/1/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "RandomOperatorSelection/2/primary_metric": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "RandomOperatorSelection/primary_metric_mean": {
+      "min": -950.0,
+      "max": -950.0,
+      "mean": -950.0,
+      "count": 1
+    },
+    "RandomOperatorSelection/primary_metric_std": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "count": 1
+    }
+  },
+  "total_runs": 1,
+  "best_run": {
+    "run_id": "iterative-refine-best",
+    "task_id": "sandbox-main",
+    "status": "completed",
+    "metrics": {
+      "AdaptiveEvolutionaryOperatorOptimization/0/primary_metric": -950.0,
+      "AdaptiveEvolutionaryOperatorOptimization/primary_metric": -950.0,
+      "primary_metric": -950.0,
+      "AdaptiveEvolutionaryOperatorOptimization/1/primary_metric": -950.0,
+      "AdaptiveEvolutionaryOperatorOptimization/2/primary_metric": -950.0,
+      "AdaptiveEvolutionaryOperatorOptimization/primary_metric_mean": -950.0,
+      "primary_metric_mean": -950.0,
+      "AdaptiveEvolutionaryOperatorOptimization/primary_metric_std": 0.0,
+      "primary_metric_std": 0.0,
+      "NoReinforcementLearning/0/primary_metric": -950.0,
+      "NoReinforcementLearning/primary_metric": -950.0,
+      "NoReinforcementLearning/1/primary_metric": -950.0,
+      "NoReinforcementLearning/2/primary_metric": -950.0,
+      "NoReinforcementLearning/primary_metric_mean": -950.0,
+      "NoReinforcementLearning/primary_metric_std": 0.0,
+      "FixedOperatorStrategy/0/primary_metric": -950.0,
+      "FixedOperatorStrategy/primary_metric": -950.0,
+      "FixedOperatorStrategy/1/primary_metric": -950.0,
+      "FixedOperatorStrategy/2/primary_metric": -950.0,
+      "FixedOperatorStrategy/primary_metric_mean": -950.0,
+      "FixedOperatorStrategy/primary_metric_std": 0.0,
+      "RandomOperatorSelection/0/primary_metric": -950.0,
+      "RandomOperatorSelection/primary_metric": -950.0,
+      "RandomOperatorSelection/1/primary_metric": -950.0,
+      "RandomOperatorSelection/2/primary_metric": -950.0,
+      "RandomOperatorSelection/primary_metric_mean": -950.0,
+      "RandomOperatorSelection/primary_metric_std": 0.0
+    },
+    "elapsed_sec": 104.29603029997088,
+    "stdout": "",
+    "stderr": "A:\\autorc\\artifacts\\rc-20260629-092420-3bd487\\stage-13\\refine_sandbox_v2\\_project_1\\agent.py:31: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).\n  state = torch.tensor(state, dtype=torch.float32)\n",
+    "timed_out": false,
+    "condition_count": 22
+  },
+  "latex_table": "\\begin{table}[h]\n\\centering\n\\caption{Experiment Results (Best Refinement Iteration)}\n\\begin{tabular}{lrrrr}\n\\hline\nMetric & Min & Max & Mean & N \\\\\n\\hline\nAdaptiveEvolutionaryOperatorOptimization/0/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nAdaptiveEvolutionaryOperatorOptimization/1/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nAdaptiveEvolutionaryOperatorOptimization/2/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nAdaptiveEvolutionaryOperatorOptimization/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nAdaptiveEvolutionaryOperatorOptimization/primary_metric_mean & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nAdaptiveEvolutionaryOperatorOptimization/primary_metric_std & 0.0000 & 0.0000 & 0.0000 & 1 \\\\\nFixedOperatorStrategy/0/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nFixedOperatorStrategy/1/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nFixedOperatorStrategy/2/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nFixedOperatorStrategy/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nFixedOperatorStrategy/primary_metric_mean & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nFixedOperatorStrategy/primary_metric_std & 0.0000 & 0.0000 & 0.0000 & 1 \\\\\nNoReinforcementLearning/0/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nNoReinforcementLearning/1/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nNoReinforcementLearning/2/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nNoReinforcementLearning/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nNoReinforcementLearning/primary_metric_mean & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nNoReinforcementLearning/primary_metric_std & 0.0000 & 0.0000 & 0.0000 & 1 \\\\\nRandomOperatorSelection/0/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nRandomOperatorSelection/1/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nRandomOperatorSelection/2/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nRandomOperatorSelection/primary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nRandomOperatorSelection/primary_metric_mean & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nRandomOperatorSelection/primary_metric_std & 0.0000 & 0.0000 & 0.0000 & 1 \\\\\nprimary_metric & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nprimary_metric_mean & -950.0000 & -950.0000 & -950.0000 & 1 \\\\\nprimary_metric_std & 0.0000 & 0.0000 & 0.0000 & 1 \\\\\n\\hline\n\\end{tabular}\n\\end{table}",
+  "generated": "2026-06-29T10:37:23+00:00",
+  "ablation_warnings": [
+    "ABLATION FAILURE: Conditions 'AdaptiveEvolutionaryOperatorOptimization' and 'FixedOperatorStrategy' produce identical outputs across all 3 metrics. The ablation is invalid \u2014 the differentiating parameter is likely not used in the code.",
+    "ABLATION FAILURE: Conditions 'AdaptiveEvolutionaryOperatorOptimization' and 'NoReinforcementLearning' produce identical outputs across all 3 metrics. The ablation is invalid \u2014 the differentiating parameter is likely not used in the code.",
+    "ABLATION FAILURE: Conditions 'AdaptiveEvolutionaryOperatorOptimization' and 'RandomOperatorSelection' produce identical outputs across all 3 metrics. The ablation is invalid \u2014 the differentiating parameter is likely not used in the code.",
+    "ABLATION FAILURE: Conditions 'FixedOperatorStrategy' and 'NoReinforcementLearning' produce identical outputs across all 3 metrics. The ablation is invalid \u2014 the differentiating parameter is likely not used in the code.",
+    "ABLATION FAILURE: Conditions 'FixedOperatorStrategy' and 'RandomOperatorSelection' produce identical outputs across all 3 metrics. The ablation is invalid \u2014 the differentiating parameter is likely not used in the code.",
+    "ABLATION FAILURE: Conditions 'NoReinforcementLearning' and 'RandomOperatorSelection' produce identical outputs across all 3 metrics. The ablation is invalid \u2014 the differentiating parameter is likely not used in the code.",
+    "ZERO VARIANCE: All 4 conditions have identical primary_metric (-950.0). Experiment condition wiring is likely broken."
+  ],
+  "condition_summaries": {
+    "AdaptiveEvolutionaryOperatorOptimization": {
+      "metrics": {
+        "primary_metric": -950.0,
+        "primary_metric_mean": -950.0,
+        "primary_metric_std": 0.0
+      }
+    },
+    "NoReinforcementLearning": {
+      "metrics": {
+        "primary_metric": -950.0,
+        "primary_metric_mean": -950.0,
+        "primary_metric_std": 0.0
+      }
+    },
+    "FixedOperatorStrategy": {
+      "metrics": {
+        "primary_metric": -950.0,
+        "primary_metric_mean": -950.0,
+        "primary_metric_std": 0.0
+      }
+    },
+    "RandomOperatorSelection": {
+      "metrics": {
+        "primary_metric": -950.0,
+        "primary_metric_mean": -950.0,
+        "primary_metric_std": 0.0
+      }
+    }
+  },
+  "condition_metrics": {
+    "AdaptiveEvolutionaryOperatorOptimization": {
+      "metrics": {
+        "primary_metric": -950.0,
+        "primary_metric_mean": -950.0,
+        "primary_metric_std": 0.0
+      }
+    },
+    "NoReinforcementLearning": {
+      "metrics": {
+        "primary_metric": -950.0,
+        "primary_metric_mean": -950.0,
+        "primary_metric_std": 0.0
+      }
+    },
+    "FixedOperatorStrategy": {
+      "metrics": {
+        "primary_metric": -950.0,
+        "primary_metric_mean": -950.0,
+        "primary_metric_std": 0.0
+      }
+    },
+    "RandomOperatorSelection": {
+      "metrics": {
+        "primary_metric": -950.0,
+        "primary_metric_mean": -950.0,
+        "primary_metric_std": 0.0
+      }
+    }
+  },
+  "total_conditions": 4,
+  "total_metric_keys": 27
+}
