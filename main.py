@@ -893,6 +893,8 @@ def main():
                     'solution_quality': eval_m['solution_quality'],
                     'computation_time': round(elapsed, 2),
                     'fully_covered':    eval_m['fully_covered'],
+                    'history_cover_sizes': train_metrics['cover_sizes'],
+                    'history_action_probs': train_metrics['action_probs'],
                 }
                 print(f"    {SHORT_NAME[cond_name]:15s} cover={cover:.1f}  "
                       f"Q={eval_m['solution_quality']:.3f}  "
