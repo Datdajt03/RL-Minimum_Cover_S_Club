@@ -1,3 +1,5 @@
+# Dự án này đã lỗi và sai tôi cũng khuyên mọi người rằng không nên áp dụng RL vô Min sclub cover làm gì cả tôi dã mất 3 tháng để tối ưu lại dự án nhưng trên thực tế thì chất lượng rất tệ ( bạn có thể tham khảo ) 
+# Form Datdajt( TBU - Tay Bac University)
 # Phương pháp lựa chọn thích nghi các toán tử tiến hóa dựa trên Reinforcement Learning cho bài toán Minimum s-club cover
 
 Thư mục này chứa mã nguồn thực nghiệm và các tập dữ liệu cho bài nghiên cứu đề xuất giải pháp học tăng cường (Reinforcement Learning) nhằm lựa chọn toán tử di truyền thích nghi cho giải thuật tiến hóa (Evolutionary Algorithm - EA) giải quyết bài toán **Minimum $s$-Club Cover (Bao $s$-Club tối tiểu)**.
